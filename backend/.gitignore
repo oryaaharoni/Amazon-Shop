@@ -1,4 +1,4 @@
-# check git
+
  
-# .node_modules
-# .env  // add env to .gitignore we dont want the upload this secret file
+node_modules
+.env  
