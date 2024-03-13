@@ -20,8 +20,8 @@ export const HomePage = () => {
       dispatch({type:"GET_REQUEST"}); 
 
       try{
-        // axios- מישהו שאחראי לשלוח בקשות 
-        const {data} = await axios.get("http://localhost:8080/api/v1/product");
+      
+        const {data} = await axios.get("/api/v1/product");
         dispatch({ type:"GET_SUCCESS" ,payload:data });
       }
       catch (error){
