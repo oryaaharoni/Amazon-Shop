@@ -7,8 +7,8 @@ import './index.css'
 import  axios  from 'axios'
 import { StoreProvider } from './Store.jsx'
 
-axios.defaults.baseURL= 'http://localhost:8080';
 
+axios.defaults.baseURL = import.meta.env.DEV ? 'http://localhost:8080' : 'https://amazon-shop-ten.vercel.app/'; 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <StoreProvider>
