@@ -6,7 +6,7 @@ import descriptionPageReducer from "../reducers/descriptionPageReducer.jsx";
 import Title from "../components/shared/Title.jsx";
 import ProductDescription from "../components/DescriptionPage/productDescription.jsx";
 import { Store } from "../Store.jsx";
-import CartDescription from "../components/DescriptionPage/cartDescription.jsx";
+import CartDescription from "../components/DescriptionPage/CartDescription.jsx";
 
 const initialState = { loading: true, error: "", data: [] };
 
