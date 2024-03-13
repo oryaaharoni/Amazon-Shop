@@ -4,7 +4,7 @@ import Loading from "../components/shared/Loading.jsx";
 import MessageBox from "../components/shared/MessageBox.jsx";
 import descriptionPageReducer from "../reducers/descriptionPageReducer.jsx";
 import Title from "../components/shared/Title.jsx";
-import ProductDescription from "../components/DescriptionPage/productDescription.jsx";
+import ProductDescription from "../components/DescriptionPage/ProductDescription.jsx";
 import { Store } from "../Store.jsx";
 import CartDescription from "../components/DescriptionPage/CartDescription.jsx";
 
